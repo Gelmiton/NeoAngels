@@ -1,2 +1,2 @@
-release: python manage.py migrate
-web: gunicorn prenatal.wsgi --preload --log-file -
+release: python manage.py
+web: python prenatal.wsgi 
